@@ -1,0 +1,26 @@
+{
+  "name": "sequelized_burger",
+  "version": "1.0.0",
+  "description": "Sequelized version of burger app where user can create and then eat burgers.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpannewitz/sequelizedBurger.git"
+  },
+  "author": "julia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpannewitz/sequelizedBurger/issues"
+  },
+  "homepage": "https://github.com/jpannewitz/sequelizedBurger#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express-handlebars": "^3.0.0",
+    "path": "^0.12.7",
+    "sequelize": "^4.4.3"
+  }
+}
